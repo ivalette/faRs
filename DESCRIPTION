@@ -3,9 +3,14 @@ Type: Package
 Title: First R Package
 Version: 1.0-1
 Date: 2017-01-21
-Imports: readr, dplyr
-Depends: R (>= 3.1.2)
+Imports:
+    readr,
+    dplyr
+Depends:
+    R (>= 3.1.2)
 Author: BellaV. <nosender@yourmail.com>
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: This is a Coursera assignment to test our skills at building R packages
+Description: This is a Coursera assignment to test our skills at building R
+    packages
 License: MIT
+RoxygenNote: 5.0.1
