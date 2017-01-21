@@ -7,7 +7,9 @@ Imports:
     readr,
     dplyr,
     stats,
-    tidyr
+    tidyr,
+    maps,
+    graphics
 Depends:
     R (>= 3.1.2)
 Author: BellaV. <nosender@yourmail.com>
