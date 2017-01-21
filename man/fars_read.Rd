@@ -10,7 +10,7 @@
 fars_read(filename)
 }
 \arguments{
-\item{filename.csv}{The name of the csv file to load in R}
+\item{filename}{The name of the csv file to load in R}
 }
 \value{
 a data frame tbl 

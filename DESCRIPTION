@@ -11,8 +11,11 @@ Depends:
 Author: BellaV. <nosender@yourmail.com>
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: This is a Coursera assignment to test our skills at building R
-    packages. 
-License: GLP-3
+    packages. This description is usually long, spanning multiple lines. The second
+    and subsequent lines should be indented, usually with 4 spaces.
+LazyData: TRUE
+License: GPL-3
+Encoding: UTF-8
 RoxygenNote: 5.0.1
 Suggests: knitr,
     rmarkdown,

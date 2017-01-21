@@ -2,7 +2,7 @@
 #' 
 #' This function loads a csv file in R and converts it to a data frame tbl
 #'
-#' @param filename.csv The name of the csv file to load in R 
+#' @param filename The name of the csv file to load in R 
 #'
 #' @return a data frame tbl 
 #' Returns \code{file filename does not exits} if the file can not be found or the directory is
