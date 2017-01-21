@@ -6,7 +6,8 @@ Date: 2017-01-21
 Imports:
     readr,
     dplyr,
-    stats
+    stats,
+    tidyr
 Depends:
     R (>= 3.1.2)
 Author: BellaV. <nosender@yourmail.com>
