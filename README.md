@@ -1,3 +1,5 @@
+{<img src="https://travis-ci.org/ivalette/faRs.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/ivalette/faRs]
+
 # faRs
 Building my first R package
 
