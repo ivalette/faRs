@@ -27,7 +27,7 @@ the US National Highway Traffic Safety Administration's Fatality Analysis Report
 }
 \examples{
 \dontrun{  
-dt <- fars_read("accident_2013.csv.bz2")
+fars_read("accident_2013.csv.bz2")
 }
 }
 \author{
