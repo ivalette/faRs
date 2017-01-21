@@ -1,5 +1,5 @@
 ---
-title: "Description of the playWithR package"
+title: "Description of the faRs package"
 author: "Isabelle Valette"
 date: "2017-01-21"
 output: rmarkdown::html_vignette
@@ -15,7 +15,7 @@ The functions included in this packages are:
 |Function           |Description                                                  |
 |:------------------------|:------------------------------------------------|
 |`fars_read()`            |Read csv files                                   |
-
+|`make_filename()`        |Make a file name                           |
 
 ## Data Source
 The functions contained in this package are created for manipulating data from  the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
@@ -30,6 +30,14 @@ Here is an example on how to use this function:
 dt <- fars_read("accident_2013.csv.bz2")
 ```
 
+## Make a file name
+This function combines text with an input value to create a file name for the data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System.
+```{r, example2, eval = FALSE}
+#Include a list of years
+make_filename(list(2013, 2014, 2015))
+#Include only a subset of numerical value
+make_filename(2014:2015)
+```
 
 ## References
 Peer Assignment in Coursera Course "Building R Packages". 

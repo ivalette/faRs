@@ -1,6 +1,8 @@
 library(testthat)
 
-context("Test 1: Verifying exceptions for the fars_read() function: ")
-test_that("The function does not return expected file names",
-{expect_equal(42, 40+2)})
-
+context("Test 2: Verifying the naming convention for integer and lists: ")
+test_that("The function does not return expected file names", 
+          {expect_equal(make_filename(2013), "accident_2013.csv.bz2")})
+                 
+test_that("The function does not return expected file names for lists", 
+          {expect_equal(make_filename(list(2013)), "accident_2013.csv.bz2")})
