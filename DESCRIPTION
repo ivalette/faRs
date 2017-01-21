@@ -1,9 +1,11 @@
 Package: faRs
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: First R Package
+Version: 1.0-1
 Date: 2017-01-21
-Author: Who wrote it
+Imports: readr, dplyr
+Depends: R (>= 3.1.2)
+Author: BellaV. <nosender@yourmail.com>
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: This is a Coursera assignment to test our skills at building R packages
+License: MIT
