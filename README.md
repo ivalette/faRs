@@ -3,7 +3,7 @@
 # faRs
 Building my first R package
 
-This is a R assignment from the coursera course "Building R packages" by John Hopkins University
+This is an assignment from the coursera course "Building R packages" by John Hopkins University
 
 # Assignment
 1. write a vignette to include in your package using knitr and R Markdown
