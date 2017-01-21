@@ -10,4 +10,4 @@ This is a R assignment from the coursera course "Building R packages" by John Ho
 2. write at least one test written using testthat
 3. put your package on GitHub
 4. set up the repository so that the package can be checked and built on Travis
-5. Once your package has built on Travis and the build is passing with no errors, warnings, or notes you should add your Travis badge to the README.md file of your package repository.
+5. once your package has built on Travis and the build is passing with no errors, warnings, or notes you should add your Travis badge to the README.md file of your package repository.
