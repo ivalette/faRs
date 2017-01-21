@@ -12,7 +12,7 @@
 #' @references Peer Assignment in Coursera Course "Building R Packages"
 #' @source \url{https://www.coursera.org/learn/r-packages/peer/25XGp/documenting-code}
 #' 
-#' @importFrom dplyr tbl_df
+#' @importFrom dplyr tbl_df %>% 
 #' @importFrom readr read_csv
 #' 
 #' @section Warnings:
@@ -21,7 +21,7 @@
 #' 
 #' @examples
 #' \dontrun{  
-#' dt <- fars_read("accident_2013.csv.bz2")
+#' fars_read("accident_2013.csv.bz2")
 #' }
 #' @export
 fars_read <- function(filename) {

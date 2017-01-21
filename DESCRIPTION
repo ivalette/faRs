@@ -11,6 +11,6 @@ Depends:
 Author: BellaV. <nosender@yourmail.com>
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: This is a Coursera assignment to test our skills at building R
-    packages
-License: MIT
+    packages. 
+License: GLP-3
 RoxygenNote: 5.0.1
